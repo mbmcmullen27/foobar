@@ -17,7 +17,7 @@ def cycle(cursor,m,f):
     if macs==m and facs==f:
         print('({},{}) -> m:{} f:{} res = {}'.format(m,f,macs,facs,res))
         return(0)
-    elif res > f and res > m:
+    elif facs > f or macs > m:
         return float('inf')
 
     leftnode=cycle({'m':res,'f':facs},m,f)
