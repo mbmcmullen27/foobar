@@ -71,13 +71,13 @@ def solution(banana_list):
                 stack.insert(0,(index,banana_list[index]))
                 break               
 
-    # for p in range(len(proposals)):
-    #     held=proposals[p]
-    #     if len(prefs[p]) >= 2:
-    #         ids=[i for i,val in enumerate(prefs[p]) if (val == banana_list[p] or val == banana_list[held])]
-    #         vals=[prefs[p][i] for i in ids]
-    #         prefs[p]=vals
-    #         if not vals: leftovers+=1
+    for p in range(len(proposals)):
+        held=proposals[p]
+        if len(prefs[p]) >= 2:
+            ids=[i for i,val in enumerate(prefs[p]) if (val == banana_list[p] or val == banana_list[held])]
+            vals=[prefs[p][i] for i in ids]
+            prefs[p]=vals
+            if not vals: leftovers+=1
 
     for p in range(len(proposals)):
         held=proposals[p]
