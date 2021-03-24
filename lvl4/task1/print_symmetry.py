@@ -48,7 +48,8 @@ def solution(banana_list):
     stack=list(range(len(banana_list)))    
     stack=sorted(stack,key=preferences,reverse=True)
 
-
+    print '------------BEGIN PROPOSAL PHASE------------'
+    print stack
     blocking=0
     while stack and len(proposals)<len(banana_list):
         p=stack.pop(0)
@@ -57,18 +58,29 @@ def solution(banana_list):
         sutors=proposals.keys()
 
         if p in assigned: continue
+
         if not pref_list: 
+            print '{} BLOCKS: {}'.format(p,pref_list)
             blocking+=1
         else:
             q=prefs[p][0]
+            print '{}->{} '.format(p,q)
             if q in assigned: 
-                reject=sutors[assigned.index(q)]
+                held=sutors[assigned.index(q)]
+                print '{} HOLDS {}'.format(held,q)
+                print '{} REJECTS {}'.format(q,p)
                 prefs[p].pop(0)
                 # prefs[q].pop(prefs[q].index(p))
                 stack.insert(0,p)
             else:
                 proposals[p]=q
                 proposals[q]=p
+            
+            for i in range(len(prefs)):
+                print '[{}]:{}'.format(i,prefs[i])
+        print 'proposals: {}'.format(proposals)
+    print '------------END PROPOSAL PHASE------------'
+
 
     return blocking
 
