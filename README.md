@@ -11,10 +11,14 @@ I googled it, and the page split open and displayed this message:
 
 ![foobar](./foobar-message.png)
 
+Apparently, Google triggers this challenge based on your search history if they think you're someone who is a "curious developer" but, as far as I can tell, nobody is really sure exactly what type of searches will trigger the prompt.
+
+Then you're taken to a small linux-style shell environment, where you dig through some text files where you find the first challenge. You can submit answers to each challenge in Java or Python (I chose Python for all of them because I typically prefer scripting languages for most tasks)
+
 I got far enough my results where sent to a google recruiter, but my github was mostly empty and my linked in didn't exist
 (I was pushing code to a local gitea instance hosted on a raspberry pi at the time... for fun) 
 
-But, in the end I was just happy to be invited, and overall I consider the experience a huge success.
+But, in the end I wasn't looking for a new job anyway, I was just happy to be invited, and overall I consider the experience a huge success.
 
 ## Lessons Learned
 - Everything in version control, all the time.
