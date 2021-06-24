@@ -1,10 +1,9 @@
 # Distract the Trainers
 
-This is where I hit a wall. All 3 challenges in level 3 I was able to complete with ample time left over. Each had a 1 week long time limit and I finished each in 2 or 3 days. This one that I'm certain is a variate of the Gale-Shapely Marriage Problem
+This is where I hit a wall. All 3 challenges in level 3 I was able to complete with ample time left over. Each had a 1 week long time limit and I finished each in 2 or 3 days. This one gave me two weeks and I wasn't able to solve it in time. I'm certain this is a variate of the Gale-Shapely Marriage Problem.
+Specifically, [Stable Matching with indifference](https://en.wikipedia.org/wiki/Stable_marriage_with_indifference)
 
-[Stable Matching with indifference](https://en.wikipedia.org/wiki/Stable_marriage_with_indifference)
-
-^^ Something along these lines, indiference because each participant (the trainers) don't care who they match with, they just want to match. More than that, we don't have a male/female pairing of two sets, we have one set that needs to match itself (Stable Roommates variant) 
+Indiference because each participant (the trainers) don't care who they match with, they just want to match. More than that, we don't have a male/female pairing of two sets, we have one set that needs to match itself (Stable Roommates variant) 
 
 [Robert W. Irving has the answer, but he's not sharing](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.7366&rep=rep1&type=pdf)
 

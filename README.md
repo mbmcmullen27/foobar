@@ -1,6 +1,6 @@
 # Google Foobar Challenge
 
-This is all the code I wrote for the (top secret 😮) Google Foobar recruitment challenge, in a pile, no sensible structure lives here.
+This is most of the code I wrote (not pictured: the first level, and the first task in the second level) for the (top secret 😮) Google Foobar recruitment challenge, in a pile, no sensible structure lives here.
 Each challenge level got a directory and each task in the level got a subdirectory, after that its a
 
 ## What?
