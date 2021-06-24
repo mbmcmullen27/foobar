@@ -21,8 +21,8 @@ I got far enough my results where sent to a google recruiter, but my github was 
 But, in the end I wasn't looking for a new job anyway, I was just happy to be invited, and overall I consider the experience a huge success.
 
 ## Lessons Learned
-- Everything in version control, all the time.
-    - Each challenge had a time limit, and in 'crunch time' I didn't use any branching strategy and that resulted in unintelligble python soup in each of the folders. You have to look real close to see the path I took to the solutions and I had a hard time keeping track of what my most recent revisions where.
+- Everything in version control, all the time. (even a local git repo with no remotes can vastly improve the dev process)
+    - Each challenge had a time limit, and in 'crunch time' I didn't use any branching strategy and the result is an unintelligble python soup in each of the folders. You have to look real close to see the path I took to the solutions and I had a hard time keeping track of what my most recent revisions where, while I was working on them. 
     - Migrating repos is trivial, with a few commands I was able to take what I had on gitea, change the remote, and push to my official github.
 - Docker as a lab space
     - I may have been going overboard, and I'm sure there's a more straight forward way to do this with python on its own, but to make sure the python version that was allowed and what I was using matched exactly, I would use a python docker image and aliased the run command so I could mount a script in a container, run it and print results, like I would normally but it would execute in the docker environment.
